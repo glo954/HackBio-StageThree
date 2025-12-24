@@ -110,7 +110,7 @@ The workflow was implemented using **Scanpy** and optimized for high-dimensional
 **Figure 3: Transcriptional Drivers of the Metabolic and Inflammatory Shift**
 <img width="2850" height="369" alt="image" src="https://github.com/user-attachments/assets/28ef2086-6385-4ce3-b474-3715fae369b6" />
 <img width="2837" height="369" alt="image" src="https://github.com/user-attachments/assets/d83fcc15-9feb-4dea-9afe-89074c3fe545" />
-<img width="2837" height="369" alt="image" src="https://github.com/user-attachments/assets/8d62131b-eabe-4f21-acdb-8f0d428cf122" />
+<img width="2837" height="369" alt="image" src="https://github.com/user-attachments/assets/0a161e94-0bd9-404b-b9cf-ec930905bd5f" />
 <img width="2850" height="369" alt="image" src="https://github.com/user-attachments/assets/e4729c72-7e5e-4c42-b67a-92c5d0ed3d0d" />
 
 
@@ -118,7 +118,7 @@ The workflow was implemented using **Scanpy** and optimized for high-dimensional
 
 **Description:**
 
-**Identification of Key Regulatory Drivers: **This multi-panel feature plot visualizes the specific genes driving cellular divergence during the infection.Inflammatory Signaling 
+**Identification of Key Regulatory Drivers:** This multi-panel feature plot visualizes the specific genes driving cellular divergence during the infection.Inflammatory Signaling 
 
 **Activation:** The robust expression of NFKBIA and NFKBIZ across the clusters highlights the rapid activation of the NF-$\kappa$B pathway, a central driver of the inflammatory response.
 
