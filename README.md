@@ -129,7 +129,27 @@ The workflow was implemented using **Scanpy** and optimized for high-dimensional
 **Spatial Correlation with Infection:** The overlap of these markers with the Alveolar Type II and Epithelial clusters confirms that these specific cell lineages are the primary drivers of the immunometabolic environment observed throughout the study.
 
 
+**Scientific Discussion**
+**1. Cellular Dynamics Across Infection Stages**
+The longitudinal analysis reveals a clear shift in the bronchial landscape from homeostasis to inflammatory dominance:
 
+**Mock (Homeostasis):** Dominated by stable populations of ciliated, goblet, club, and basal cells with minimal immune presence.
+
+**1 dpi (Early Response):** Emergence of myofibroblasts and initial macrophage recruitment alongside early transcriptional perturbations in ACE2+ secretory cells.
+
+**2 dpi (Peak Transition):** Extensive disruption and diversification, with a notable expansion of immune-associated clusters.
+
+**3 dpi (Late Stage/Repair):** Inflammatory dominance led by macrophages, alongside an increase in club and basal cells reflecting epithelial regeneration and repair.
+
+**2. ACE2 vs. ENO2: Divergent Biomarkers**
+A critical finding of this study is the functional difference between **ACE2** (susceptibility) and **ENO2** (stress/metabolism):
+
+**ACE2 as an Entry Marker:** While essential for viral entry, ACE2 is a poor marker for tracking longitudinal infection severity. Its expression is transient and often downregulates post-entry due to receptor internalization or cell death.
+
+**ENO2 as a Progression Marker:** In contrast, **ENO2** (Enolase 2) reflects metabolic reprogramming and increased energetic demand. Its sustained upregulation across the timeline makes it a more informative indicator of cellular stress and disease progression than viral entry receptors alone.
+
+**3. ACE2 Persistence and Epithelial Renewal**
+By 3 dpi, ACE2 expression is sparse and localized primarily within residual secretory/club cell clusters. Biologically, these high-ACE2 cells likely represent **regenerating epithelial cells** rather than actively infected ones, suggesting that the initial targets of infection were depleted, and the tissue has transitioned into a renewal phase.
 
 ---
 
