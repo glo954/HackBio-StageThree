@@ -10,22 +10,22 @@ Key Focus: Beyond cluster identification, this analysis investigates the immunom
 
 ## Objectives
 
-***Decipher Cellular Heterogeneity:** Identify and annotate major bronchial epithelial and recruited immune cell populations across the longitudinal infection course using Leiden clustering and marker-based validation.
+**Decipher Cellular Heterogeneity:** Identify and annotate major bronchial epithelial and recruited immune cell populations across the longitudinal infection course using Leiden clustering and marker-based validation.
 
-***Map Infection Kinetics:** Characterize the global transcriptional remodeling occurring from early viral entry (1 dpi) to peak inflammatory response (3 dpi).
+**Map Infection Kinetics:** Characterize the global transcriptional remodeling occurring from early viral entry (1 dpi) to peak inflammatory response (3 dpi).
 
-***Reconstruct Cellular State Transitions:** Utilize **Diffusion Pseudotime (DPT)** to infer high-resolution trajectories, modeling the continuous path from homeostatic epithelium to infected states.
+**Reconstruct Cellular State Transitions:** Utilize **Diffusion Pseudotime (DPT)** to infer high-resolution trajectories, modeling the continuous path from homeostatic epithelium to infected states.
 
-***Profile the Immunometabolic Axis:** Evaluate the expression dynamics of **ACE2** (viral susceptibility) and **ENO2** (glycolytic activation) to identify metabolic signatures of cellular stress and viral hijacking.
+**Profile the Immunometabolic Axis:** Evaluate the expression dynamics of **ACE2** (viral susceptibility) and **ENO2** (glycolytic activation) to identify metabolic signatures of cellular stress and viral hijacking.
 
-***Optimize Large-Scale scRNA-seq Workflows:** Implement a modular computational pipeline to manage high-dimensional data (~77,000 cells) within resource-constrained cloud environments.
+**Optimize Large-Scale scRNA-seq Workflows:** Implement a modular computational pipeline to manage high-dimensional data (~77,000 cells) within resource-constrained cloud environments.
 
 ---
 
 ## Dataset
 
-**Source:** NCBI GEO — GSE166766
-**Technology:** 10X Genomics scRNA-seq
+*Source:** NCBI GEO — GSE166766
+*Technology:** 10X Genomics scRNA-seq
 
 | Sample     | Condition | Approx. Cells |
 | ---------- | --------- | ------------- |
@@ -43,7 +43,7 @@ The workflow was implemented using **Scanpy** and optimized for high-dimensional
 
 **1. Computational Optimization:** Due to the high memory footprint of the integrated 10X Genomics dataset (~77,000 cells), the pipeline was executed via a **modular, time-point-specific approach**. This ensured high-fidelity preprocessing and normalization of individual conditions (Mock through 3 dpi) prior to trajectory reconstruction.
 
-**2. Data Integrity and QC** * 
+**2. Data Integrity and QC** 
 **Resolution of Sample Mislabeling:** Identified and corrected metadata discrepancies in the source dataset through iterative marker-based annotation.
 
 **Stringent Filtering:** Removed doublets using **Scrublet** and excluded cells with >10% mitochondrial content to ensure biological signal outweighed technical noise.
@@ -63,11 +63,11 @@ The workflow was implemented using **Scanpy** and optimized for high-dimensional
 
 ## Key Biological Findings
 
-***Non-Linear Correlation of Viral Entry:** ACE2 expression defines initial cellular susceptibility but does not strictly predict late-stage viral burden. This suggests that post-entry intracellular factors, rather than just receptor density, dictate the peak of infection.
+**Non-Linear Correlation of Viral Entry:** ACE2 expression defines initial cellular susceptibility but does not strictly predict late-stage viral burden. This suggests that post-entry intracellular factors, rather than just receptor density, dictate the peak of infection.
 
-***Infection-Induced Glycolytic Switch:** Identified a significant and progressive upregulation of **ENO2 (Enolase 2)** along the pseudotime trajectory. This transcriptional signature indicates a **metabolic reprogramming towards glycolysis**, likely to meet the biosynthetic and energetic demands of rapid viral replication and inflammatory signaling.
+**Infection-Induced Glycolytic Switch:** Identified a significant and progressive upregulation of **ENO2 (Enolase 2)** along the pseudotime trajectory. This transcriptional signature indicates a **metabolic reprogramming towards glycolysis**, likely to meet the biosynthetic and energetic demands of rapid viral replication and inflammatory signaling.
 
-***Temporal Resolution of Lung Remodeling:** Pseudotime analysis successfully resolved the transition from epithelial homeostasis (Mock) to a peak inflammatory state (3 dpi), characterized by the emergence of **pro-inflammatory macrophage populations** and goblet cell hyperplasia.
+**Temporal Resolution of Lung Remodeling:** Pseudotime analysis successfully resolved the transition from epithelial homeostasis (Mock) to a peak inflammatory state (3 dpi), characterized by the emergence of **pro-inflammatory macrophage populations** and goblet cell hyperplasia.
 
 ---
 
@@ -185,7 +185,7 @@ Ravindra, N. G. et al. (2021). *Single-cell longitudinal analysis of SARS-CoV-2 
 
 ## Credits
 
-* **Dataset:** Ravindra et al., PLOS Biology (2021)
-* **Analysis Framework:** HackBio Stage Three
-* **Tools:** Scanpy, Decoupler, Matplotlib, Seaborn
+ **Dataset:** Ravindra et al., PLOS Biology (2021)
+ **Analysis Framework:** HackBio Stage Three
+ **Tools:** Scanpy, Decoupler, Matplotlib, Seaborn
 
